@@ -7,7 +7,7 @@ import string
 from nltk.probability import FreqDist
 import urllib.request
 
-url = 'https://www.investopedia.com/terms/s/swot.asp#:~:text=SWOT%20(strengths%2C%20weaknesses%2C%20opportunities,as%20current%20and%20future%20potential.'  # Replace with the URL of the webpage you want to scrape
+url = 'https://anix.to/home'  # Replace with the URL of the webpage you want to scrape
 
 
 with open('filterWords.txt', 'r') as file:
