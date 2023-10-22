@@ -1,10 +1,10 @@
-import numpy
+import numpy as np
 
 class Check():
     '''
-    Check if a webpage should be blocked.
+    ## Check if a webpage should be blocked.
 
-    Inputs
+    ### Inputs
     -----------
     cossim (list): list of cosine similarity scores
     threshold (int): threshold to block webpage
@@ -14,6 +14,8 @@ class Check():
         self.threshold = threshold
         print("Checking if webpage is good")
     def check(self) -> bool:
-        cossim = numpy.array(self.cossim)
-        for score in cossim:
-            print(score)
+        cossim = np.array(self.cossim)
+        print("Threshold: ", self.threshold, "Cossim: ", np.mean(cossim))
+        if np.mean(cossim) > self.threshold:
+            return True
+        return False

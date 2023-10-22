@@ -1,26 +1,38 @@
 from embeddings import Embeddings
 from similarity import Similarity
 from check import Check
+import numpy as np
 
-def main() -> bool:
-    print("Hello")
-
+def block(input, keywords, threshold) -> bool:
     # Get embeddings
     embed = Embeddings("sentence-transformers/all-mpnet-base-v2")
-    input = embed.getEmbeddings(["seventeen"])
-    keyword = embed.getEmbeddings(["calculus", "math", "vector", "beach", "david"])
-    print(input.shape)
-    print(keyword.shape)
+
+    similarity = Similarity()
+
+    # Method 1: double iterate
+    print("\nMethod 1\n---------------------\n")
+    input1 = embed.getEmbeddings1(input)
+    keyword1 = embed.getEmbeddings1(keywords)
 
     # Get similarity scores
-    similarity = Similarity()
-    cossim = similarity.calculate(input, keyword)
+    cossim1 = similarity.calculate1(input1, keyword1)
 
     # Check if webpage is good
-    threshold = 0.4
-    isGood = Check(cossim, threshold).check()
+    isGood = Check(cossim1, threshold).check()
+
+    print(isGood)
+   
+    # Method 2: average word embeddings
+    print("\nMethod 2\n---------------------\n")
+    input2 = embed.getEmbeddings2(input)
+    keyword2 = embed.getEmbeddings2(keywords)
+
+    # Get similarity scores
+    cossim2 = similarity.calculate2(input2, keyword2)
+
+    # Check if webpage is good
+    isGood = Check(cossim2, threshold).check()
+
+    print(isGood)
 
     return isGood
-
-if __name__ == "__main__":
-    main()
