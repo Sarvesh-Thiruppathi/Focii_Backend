@@ -15,7 +15,7 @@ class Check():
         print("Checking if webpage is good")
     def check(self) -> bool:
         cossim = np.array(self.cossim)
-        print("Threshold: ", self.threshold, "Cossim: ", np.mean(cossim))
+        print("Cossim: ", np.mean(cossim))
         if np.mean(cossim) > self.threshold:
             return True
         return False

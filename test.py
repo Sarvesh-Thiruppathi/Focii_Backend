@@ -14,15 +14,27 @@ import json
 #         block(inputs, keywords, threshold=0.5)
 
 
-with open("data.json", "+r") as f:
+with open("testdata.json", "+r") as f:
     data = json.load(f)
 
-threshold = 0.5
-et = 0
+# initial trained parameters
+threshold = 0.4748095893859863
+et = 0.00024958481788635257
 
+# returns false (0) is predicted properly
+# returns true (1) is predicted improperly
+def error(true, predicted):
+    return not(true == predicted)
+
+sr = []
 for category in data.keys():
     keywords = data[category]["keywords"]
     for good in data[category]["1"]:
-        block(keywords, good, threshold, et)
+        predicted = block(keywords, good, threshold, et)
+        sr.append(error(1, predicted))
     for bad in data[category]["0"]:
-        block(keywords, bad, threshold, et)
+        predicted = block(keywords, bad, threshold, et)
+        sr.append(error(0, predicted))
+print(sr)
+err = len([pred for pred in sr if pred==1])/len(sr)
+print("Error", err)
