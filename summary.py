@@ -7,12 +7,21 @@ import string
 from nltk.probability import FreqDist
 import urllib.request
 
+with open('filterWords.txt', 'r') as file:
+    filter_words = [line.strip() for line in file]
+
 def tagVisible(element):
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
         return False
     if isinstance(element, Comment):
         return False
     return True
+
+def uselessWords(element):
+    if element.parent.name in filter_words:
+        return False
+    return True
+
 def textFromHTML(url):
     response = requests.get(url)
     if response.status_code == 200:
@@ -22,6 +31,7 @@ def textFromHTML(url):
     soup = BeautifulSoup(html, 'html.parser')
     texts = soup.findAll(text=True)
     visibletext = filter(tagVisible, texts)
+
     return u" ".join(t.strip() for t in visibletext)
 
 url = 'https://classful.com/what-is-math-is-fun/'  # Replace with the URL of the webpage you want to scrape
@@ -50,6 +60,7 @@ words = word_tokenize(cleaned_text)
 # Remove stopwords
 stop_words = set(stopwords.words('english'))
 filtered_words = [word for word in words if word.lower() not in stop_words]
+filtered_words = [word for word in words if word.lower() not in stop_words]
 
 # Calculate word frequencies
 fdist = FreqDist(filtered_words)
@@ -58,5 +69,5 @@ keywords = fdist.most_common(50)  # Get the top 10 keywords
 print(keywords)
 
 
-print(textFromHTML('https://classful.com/what-is-math-is-fun/'))
+# print(textFromHTML('https://classful.com/what-is-math-is-fun/'))
 
