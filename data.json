@@ -1,10 +1,57 @@
 {
-    "math": {
-        "keywords": ["calculus", "math", "vector", "derivatives", "parametric equations"],
-        "1" : [["trigonometry", "add", "subtract", "vectors"],[""]],
-        "0" : [["barbie", "beach", "soccer"],[]]
+    "economics": {
+        "keywords": ["economics", "graphs", "budget line", "constraint", "dead-weight loss", "elasticity", "boundary", "difference curve", "inflation"],
+        "1": [
+            ["Argentina", "country", "GPD", "government", "economic"],
+            ["economics", "courses", "financial", "theory", "Babson"]
+        ],
+        "2": [
+            ["Weishaupt", "Illuminati", "Bavarian", "society", "world"],
+            ["bed", "mattress", "sleep", "number", "beds"]
+        ]
     },
-    "Category 2": {
-
+    "math": {
+        "keywords": ["math", "standard deviation", "variance", "mean", "mu", "epsilon", "range", "median", "mode"],
+        "1": [
+            ["data", "set", "≤", "mean", "value"],
+            ["evidence", "probability", "probabilities", "total", "Bayes"]
+        ],
+        "2": [
+            ["Adjusted", "Score", "Critics", "Consensus", "Synopsis"],
+            ["account", "favourite", "anime", "rating", "Release"]
+        ]
+    },
+    "plane": {
+        "keywords": ["plane", "xplane 11", "vatsim", "flight simulator", "aviation", "aerospace", "flaps", "aviation charts", "ATC"],
+        "1": [
+            ["instrument", "procedures", "2023", "navigation", "procure"],
+            ["KB", "PPL", "US", "recorded", "Vatstart"]
+        ],
+        "2": [
+            ["Oregon", "State", "OSUs", "programs", "education"],
+            ["SAMSUNG", "service", "door", "filter", "payment"]
+        ]
+    },
+    "EMTs": {
+        "keywords": ["EMTs", "first aid", "CPR", "AEDs", "ketamine", "cardiac arrest", "myocardial infraction", "pneumonia", "needle decompression"],
+        "1": [
+            ["pneumothorax", "lung", "information", "chest", "health"],
+            ["block", "waves", "wave", "ECG", "AV"]
+        ],
+        "2": [
+            ["Oregon", "State", "OSUs", "programs", "education"],
+            ["Weishaupt", "Illuminati", "Bavarian", "society", "world"]
+        ]
+    },
+    "business administration": {
+        "keywords": ["business administration", "ceo", "sales", "revenue", "stocks", "profit", "liquidity", "discount", "human resources"],
+        "1": [
+            ["needs", "need", "employees", "job", "level"],
+            ["SWOT", "analysis", "company", "strengths", "weaknesses"]
+        ],
+        "2": [
+            ["Adjusted", "Score", "Critics", "Consensus", "Synopsis"],
+            ["account", "favourite", "anime", "rating", "Release"]
+        ]
     }
 }
