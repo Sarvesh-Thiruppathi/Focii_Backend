@@ -42,7 +42,7 @@ class Embeddings():
 
         return embeddings
     # Method 2: Get the embeddings of a list of sentences/words and then average the embeddings
-    def getEmbeddings2(self, sentences: list) -> torch.Tensor:
+    def getEmbeddings2(self, sentences: list, et: float) -> torch.Tensor:
         '''
         Get the embeddings of a list of sentences/words
         '''
@@ -57,5 +57,6 @@ class Embeddings():
         embeddings = F.normalize(embeddings, p=2, dim=1)
         # Method 2: Average the embeddings
         embeddings = torch.mean(embeddings, dim=0)
+        embeddings = torch.add(embeddings, torch.tensor(et))
 
         return embeddings

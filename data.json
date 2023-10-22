@@ -1,10 +1,7 @@
 {
     "math": {
         "keywords": ["calculus", "math", "vector", "derivatives", "parametric equations"],
-        "1" : [["trigonometry", "add", "subtract", "vectors"],[""]],
-        "0" : [["barbie", "beach", "soccer"],[]]
-    },
-    "Category 2": {
-
+        "1" : [["trigonometry", "add", "subtract", "vectors"], ["calculus", "lines", "y=mx+b"]],
+        "0" : [["beach", "volleyball", "sports", "among us"], ["soccer", "messi", "fifa", "score", "goals", "crowd", "brazil"]]
     }
 }
