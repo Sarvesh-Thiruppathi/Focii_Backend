@@ -1,0 +1,159 @@
+{
+    "space_physics": {
+        "keywords": ["space physics", "cosmic rays", "solar wind", "magnetosphere", "ionosphere", "space weather"],
+        "1": [
+            ["solar flares", "geomagnetic storms", "particle acceleration", "magnetic fields", "solar activity"],
+            ["ionospheric disturbances", "solar plasma", "radiation belts", "solar observatories", "astrophysical phenomena"],
+            ["magnetospheric research", "solar physics", "space climate", "ionospheric modeling", "space environment"]
+        ],
+        "2": [
+            ["botany", "gardening", "horticulture", "flowers", "plant care"],
+            ["travel destinations", "vacations", "tourism", "holiday resorts", "trip planning"],
+            ["programming languages", "software development", "coding tutorials", "web development", "app design"]
+        ]
+    },
+    "marine_biology": {
+        "keywords": ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+        "1": [
+            ["ocean habitats", "marine species", "marine research", "seabed exploration", "marine biodiversity"],
+            ["coral reef ecosystems", "marine life conservation", "oceanographic studies", "marine science", "marine ecology"],
+            ["marine life forms", "oceanic conservation", "marine species protection", "oceanographic research", "marine organism behavior"]
+        ],
+        "2": [
+            ["auto mechanics", "car repairs", "vehicle maintenance", "automotive industry", "engine diagnostics"],
+            ["cooking recipes", "cuisine", "culinary arts", "gourmet cooking", "food preparation"],
+            ["technology gadgets", "gizmos", "consumer electronics", "innovative devices", "gadget reviews"]
+        ]
+    },
+    "neuroscience": {
+        "keywords": ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
+        "1": [
+            ["brain imaging", "neural pathways", "cognitive functions", "neuropsychology", "neuroscience studies"],
+            ["neural mapping", "cognitive processes", "brain health", "neurological research", "neuropsychiatric disorders"],
+            ["neurophysiology", "cognitive development", "brain disorders", "neurological treatments", "neurobiology"]
+        ],
+        "2": [
+            ["home decor", "interior design", "decorative arts", "furniture trends", "designer furnishings"],
+            ["music genres", "musical instruments", "sound production", "musical theory", "music composition"],
+            ["financial investments", "stock markets", "investment strategies", "wealth management", "portfolio diversification"]
+        ]
+    },
+    "space_colonization": {
+        "keywords": ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "space pioneers"],
+        "1": [
+            ["moon bases", "space habitats", "terraforming Mars", "off-world settlements", "space colonization missions"],
+            ["space migration", "interplanetary travel", "space station design", "asteroid mining", "Lunar colonization"],
+            ["Mars terraformation", "space exploration future", "cosmic pioneers", "spacefarer communities", "space settlement planning"]
+        ],
+        "2": [
+            ["fitness training", "exercise programs", "gym workouts", "workout routines", "fitness challenges"],
+            ["art and culture", "creative expression", "visual arts", "cultural heritage", "artistic movements"],
+            ["business strategies", "market analysis", "entrepreneurship", "start-up growth", "corporate innovations"]
+        ]
+    },
+    "medical_research": {
+        "keywords": ["medical research", "health studies", "clinical trials", "biomedical advances", "medical breakthroughs"],
+        "1": [
+            ["disease prevention", "medical innovations", "biotechnology research", "clinical testing", "medical discoveries"],
+            ["healthcare advancements", "medical trials", "diagnostic methods", "patient care", "medical treatments"],
+            ["pharmaceutical developments", "medical technology", "biomedical breakthroughs", "disease management", "health science"],
+            ["medical case studies", "epidemiological research", "healthcare protocols", "medical publications", "public health"]
+        ],
+        "2": [
+            ["outdoor sports", "recreational activities", "adventure sports", "sports events", "athletic competitions"],
+            ["entertainment news", "celebrity gossip", "TV shows", "film premieres", "music releases"],
+            ["travel destinations", "tourist attractions", "vacation planning", "holiday getaways", "travel adventures"],
+            ["coding tutorials", "programming languages", "software development", "web development", "app design"]
+        ]
+    },
+    "architecture_design": {
+        "keywords": ["architecture", "interior design", "architectural styles", "building materials", "design principles"],
+        "1": [
+            ["modern architecture", "architectural innovations", "sustainable design", "architectural blueprints", "urban planning"],
+            ["interior decorating", "decor trends", "furniture design", "architectural history", "architectural photography"],
+            ["design aesthetics", "building techniques", "landscape architecture", "architectural projects", "architectural critique"],
+            ["architectural preservation", "building structures", "architectural landmarks", "design theory", "architectural visualization"]
+        ],
+        "2": [
+            ["health and fitness", "nutritional balance", "exercise routines", "wellness programs", "healthcare services"],
+            ["arts and crafts", "creative projects", "DIY ideas", "creative expression", "handmade crafts"],
+            ["business management", "sales strategies", "corporate governance", "entrepreneurship", "start-up growth"],
+            ["history studies", "historical events", "medieval history", "archaeological discoveries", "historical narratives"]
+        ]
+    },
+    "robotics": {
+        "keywords": ["robotics", "automation", "robotic technology", "robotic applications", "AI robotics"],
+        "1": [
+            ["industrial robotics", "robotic automation", "autonomous robots", "robotic programming", "robotic innovation"],
+            ["robotic arms", "robotic sensors", "AI-powered robots", "robotic surgery", "robotic research"],
+            ["robotic applications", "service robots", "agricultural robotics", "robotic industries", "robotic challenges"],
+            ["robotic developments", "robotic design", "robotic algorithms", "robotic vision", "robotic mechanics"]
+        ],
+        "2": [
+            ["culinary arts", "food preparation", "gourmet cooking", "cooking recipes", "gastronomy"],
+            ["musical instruments", "sound production", "musical theory", "music composition", "music genres"],
+            ["financial investments", "stock markets", "investment strategies", "wealth management", "portfolio diversification"],
+            ["archaeological discoveries", "documentary research", "historical documents", "historical narratives", "historical investigation"]
+        ]
+    },
+    "fashion_design": {
+        "keywords": ["fashion", "designer clothing", "apparel", "fashion trends", "couture fashion"],
+        "1": [
+            ["high fashion", "runway shows", "fashion collections", "luxury brands", "fashion designers"],
+            ["clothing styles", "designer labels", "fashion accessories", "fabric choices", "textile design"],
+            ["color palettes", "haute couture", "fashion sketches", "fashion photography", "styling tips"],
+            ["fashion models", "wardrobe selections", "seasonal trends", "fashion icons", "fashion criticism"]
+        ],
+        "2": [
+            ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
+            ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+            ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
+            ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "space pioneers"]
+        ]
+    },
+    "culinary_art": {
+        "keywords": ["culinary", "cooking", "food", "gastronomy", "recipes", "chefs", "cuisine", "food culture", "culinary techniques"],
+        "1": [
+            ["food preparation", "cooking methods", "culinary ingredients", "chef's recipes", "gastronomic delights"],
+            ["cuisine exploration", "culinary traditions", "food pairing", "culinary skills", "chef's secrets"],
+            ["culinary arts", "gourmet dining", "culinary creativity", "cooking experiments", "food presentation"],
+            ["food culture", "culinary experiences", "cooking shows", "culinary heritage", "culinary education"]
+        ],
+        "2": [
+            ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
+            ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+            ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
+            ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "space pioneers"]
+        ]
+    },
+    "finance_investment": {
+        "keywords": ["finance", "investment", "financial markets", "wealth management", "portfolio diversification", "investment strategies", "stock trading", "economics"],
+        "1": [
+            ["financial planning", "investment portfolios", "investment opportunities", "market analysis", "investment advice"],
+            ["investment vehicles", "financial instruments", "investment trends", "financial advisors", "investment research"],
+            ["asset allocation", "investment options", "risk management", "financial literacy", "investment insights"],
+            ["economic indicators", "stock market analysis", "wealth building", "investment decisions", "investment performance"]
+        ],
+        "2": [
+            ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
+            ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+            ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
+            ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "space pioneers"]
+        ]
+    },
+    "travel_adventures": {
+        "keywords": ["travel", "adventure", "exploration", "tourist destinations", "vacations", "holiday getaways", "trip planning", "travel experiences", "sightseeing"],
+        "1": [
+            ["adventure trips", "travel experiences", "holiday adventures", "travel explorations", "wanderlust journeys"],
+            ["tourist hotspots", "destination guides", "travel itineraries", "off-the-beaten-path", "travel diaries"],
+            ["cultural immersion", "backpacking trips", "sightseeing tours", "travel photography", "globetrotting tales"],
+            ["vacation planning", "beach getaways", "mountain escapades", "city breaks", "luxury vacations"]
+        ],
+        "2": [
+            ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
+            ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+            ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
+            ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "space pioneers"]
+        ]
+    }
+}
