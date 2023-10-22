@@ -3,7 +3,7 @@ from similarity import Similarity
 from check import Check
 import numpy as np
 
-def block(keywords: list, site: list, threshold=0.00024951171875, et=0.47490234374999996) -> bool:
+def block(keywords: list, site: list, threshold=0.6647705268859867, et=0.00020584716796875002) -> bool:
     # Get embeddings
     embed = Embeddings("sentence-transformers/all-mpnet-base-v2")
 

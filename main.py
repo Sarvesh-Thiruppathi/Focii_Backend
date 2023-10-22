@@ -12,11 +12,11 @@ def get_items():
 
       print(data)
         
-      if 'keywordsInput' in data and 'keywordWebsite' in data:
-        return block(data['keywordsInput'],data['keywordWebsite'])
+      if 'keywordInput' in data and 'keywordWebsite' in data:
+        blockReturn = block(data['keywordInput'],data['keywordWebsite'])
+        return jsonify(int(blockReturn))
 
-      return "SOMETHING WENT WRONG"
-      print(data)
+      return "100"
 
   else:
     return "405 Method Not Allowed", 405
