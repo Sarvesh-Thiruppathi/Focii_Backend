@@ -16,7 +16,12 @@ def get_items():
         blockReturn = block(data['keywordInput'],data['keywordWebsite'])
         return jsonify(int(blockReturn))
 
-      return "100"
+        with open('requestJson.txt', 'a') as file:
+          file.write(str(data) + '\n')
+
+        return jsonify(int(blockReturn))
+
+      return "403 Forbidden", 403
 
   else:
     return "405 Method Not Allowed", 405
