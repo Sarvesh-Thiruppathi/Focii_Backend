@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from block import block
 
 app = Flask(__name__)
 
@@ -7,14 +8,18 @@ app = Flask(__name__)
 def get_items():
   if (request.method == 'POST'):
     if request.is_json:
-      content = request.get_json()
+      data = request.get_json()
 
-      print(content)
-      
-      return jsonify(1)
+      print(data)
+        
+      if 'keywordsInput' in data and 'keywordWebsite' in data:
+        return block(data['keywordsInput'],data['keywordWebsite'])
+
+      return "SOMETHING WENT WRONG"
+      print(data)
 
   else:
-    return "ERROR 401: Unauthorized access"
+    return "405 Method Not Allowed", 405
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=80)
