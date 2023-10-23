@@ -1,9 +1,8 @@
-from embeddings import Embeddings
-from similarity import Similarity
-from check import Check
-import numpy as np
+from src.embeddings import Embeddings
+from src.similarity import Similarity
+from src.check import Check
 
-def block(keywords: list, site: list, threshold=0.6647705268859867, et=0.00020584716796875002, weight=1) -> bool:
+def block(keywords: list, site: list, threshold=0.6110711019661632, et=0.0001475765889346136, weight=0.8563443072702338) -> bool:
     # Get embeddings
     embed = Embeddings("sentence-transformers/all-mpnet-base-v2")
    

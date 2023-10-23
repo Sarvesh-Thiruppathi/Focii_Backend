@@ -1,9 +1,11 @@
 import json
-from block import block
+import sys
+sys.path.append('../')
+from src.block import block
 from random import random
 from scipy import optimize
 
-with open("combined.json", "+r") as f:
+with open("./dataset/traindata.json", "+r") as f:
     data = json.load(f)
 
 # returns false (0) is predicted properly
@@ -40,14 +42,18 @@ if result.success:
 else:
     print("Optimization failed.")
     
-# Results on traindata.json
+# Results on faux_traindata.json
 # et: 0.00020584716796875002
 # threshold:  0.6647705268859867
 # Minimum Error: 0.017857142857142856
 
-# with weight (traindata)
+# with weight (faux_traindata)
 # et:  0.0002058572190999985 threshold:  0.6647380673876035 weight:  1.000048828125
 
-# with weight (testdata_sep_words)
-#Error 0.0625
+# with weight (faux_testdata_sep_words)
+# Error 0.0625
 # Optimized Parameter:  [0.0002138523356119792, 0.5946003046035769, 1.036111111111111]
+
+# Results on dataset/traindata.json --> FINAL PICK
+# Optimized Parameter:  [0.0001475765889346136, 0.6110711019661632, 0.8563443072702338]
+# Minimum Error: 0.08928571428571429

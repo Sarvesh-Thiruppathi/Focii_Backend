@@ -1,20 +1,10 @@
 # TESTNG FOR WORD SIMILARITY
-from block import block
+import sys
+sys.path.append('../')
+from src.block import block
 import json
 
-# testkeywords = [["math", "site", "class", "examples", "quiz"],
-#                     ["beach", "volleyball", "sports", "among us"],
-#                     ["soccer", "messi", "fifa", "score", "goals", "crowd", "brazil"]]
-# testinputs = [["calculus", "math", "vector", "derivatives", "parametric equations"],
-#               ["soccer", "sports", "shot", "nike", "home"]]
-
-# for inputs in testinputs:
-#     for keywords in testkeywords:
-#         print("Testing for \n", inputs, keywords)
-#         block(inputs, keywords, threshold=0.5)
-
-
-with open("traindata.json", "+r") as f:
+with open("../dataset/faux_testdata_sep-words.json", "+r") as f:
     data = json.load(f)
 
 # initial trained parameters
@@ -46,9 +36,17 @@ with open("traindata.json", "+r") as f:
 # weight = 1
 
 # fifth train parameters (combined.json)
-et = -1.6289437585733984e-06
-threshold = 0.6080418381344306
-weight = 0.9576646090534982
+# et = -1.6289437585733984e-06
+# threshold = 0.6080418381344306
+# weight = 0.9576646090534982
+# et = 0
+# threshold = 0.5
+# weight = 1
+
+# sixth train parameters (traindata.json) --> TOP PICK
+et = 0.0001475765889346136
+threshold = 0.6110711019661632
+weight = 0.8563443072702338
 
 # returns false (0) is predicted properly
 # returns true (1) is predicted improperly
