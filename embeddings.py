@@ -15,11 +15,15 @@ class Embeddings():
     sentences: can be a list of sentences to compute embeddings for
 
     '''
+    # Define class-level variables for the model and tokenizer
+    model = None
+    tokenizer = None
     def __init__(self, modeldir: str):
         # Load the model from HuggingFace
-        print("Loading tokenizer and model")
-        self.tokenizer = AutoTokenizer.from_pretrained(modeldir)
-        self.model = AutoModel.from_pretrained(modeldir)
+        if Embeddings.model is None or Embeddings.tokenizer is None:
+            print("Loading tokenizer and model for the first time")
+            Embeddings.tokenizer = AutoTokenizer.from_pretrained(modeldir)
+            Embeddings.model = AutoModel.from_pretrained(modeldir)
     # Mean Pooling - Take attention mask into account for correct averaging
     def meanPooling(self, model_output: torch.Tensor, attention_mask: torch.Tensor) -> torch.Tensor:
         token_embeddings = model_output[0] # First element of model_output contains all token embeddings
@@ -42,7 +46,7 @@ class Embeddings():
 
         return embeddings
     # Method 2: Get the embeddings of a list of sentences/words and then average the embeddings
-    def getEmbeddings2(self, sentences: list, et: float) -> torch.Tensor:
+    def getEmbeddings2(self, sentences: list, et: float, weight: float) -> torch.Tensor:
         '''
         Get the embeddings of a list of sentences/words
         '''
@@ -57,6 +61,7 @@ class Embeddings():
         embeddings = F.normalize(embeddings, p=2, dim=1)
         # Method 2: Average the embeddings
         embeddings = torch.mean(embeddings, dim=0)
-        embeddings = torch.add(embeddings, torch.tensor(et))
+        # Multiply by weight and add error term
+        embeddings = torch.add(torch.mul(embeddings,weight), torch.tensor(et))
 
         return embeddings

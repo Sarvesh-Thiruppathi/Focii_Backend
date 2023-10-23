@@ -6,7 +6,7 @@
             ["ionospheric disturbances", "solar plasma", "radiation belts", "solar observatories", "astrophysical phenomena"],
             ["magnetospheric research", "solar physics", "space climate", "ionospheric modeling", "space environment"]
         ],
-        "2": [
+        "0": [
             ["botany", "gardening", "horticulture", "flowers", "plant care"],
             ["travel destinations", "vacations", "tourism", "holiday resorts", "trip planning"],
             ["programming languages", "software development", "coding tutorials", "web development", "app design"]
@@ -19,7 +19,7 @@
             ["coral reef ecosystems", "marine life conservation", "oceanographic studies", "marine science", "marine ecology"],
             ["marine life forms", "oceanic conservation", "marine species protection", "oceanographic research", "marine organism behavior"]
         ],
-        "2": [
+        "0": [
             ["auto mechanics", "car repairs", "vehicle maintenance", "automotive industry", "engine diagnostics"],
             ["cooking recipes", "cuisine", "culinary arts", "gourmet cooking", "food preparation"],
             ["technology gadgets", "gizmos", "consumer electronics", "innovative devices", "gadget reviews"]
@@ -32,7 +32,7 @@
             ["neural mapping", "cognitive processes", "brain health", "neurological research", "neuropsychiatric disorders"],
             ["neurophysiology", "cognitive development", "brain disorders", "neurological treatments", "neurobiology"]
         ],
-        "2": [
+        "0": [
             ["home decor", "interior design", "decorative arts", "furniture trends", "designer furnishings"],
             ["music genres", "musical instruments", "sound production", "musical theory", "music composition"],
             ["financial investments", "stock markets", "investment strategies", "wealth management", "portfolio diversification"]
@@ -45,7 +45,7 @@
             ["space migration", "interplanetary travel", "space station design", "asteroid mining", "Lunar colonization"],
             ["Mars terraformation", "space exploration future", "cosmic pioneers", "spacefarer communities", "space settlement planning"]
         ],
-        "2": [
+        "0": [
             ["fitness training", "exercise programs", "gym workouts", "workout routines", "fitness challenges"],
             ["art and culture", "creative expression", "visual arts", "cultural heritage", "artistic movements"],
             ["business strategies", "market analysis", "entrepreneurship", "start-up growth", "corporate innovations"]
@@ -59,7 +59,7 @@
             ["pharmaceutical developments", "medical technology", "biomedical breakthroughs", "disease management", "health science"],
             ["medical case studies", "epidemiological research", "healthcare protocols", "medical publications", "public health"]
         ],
-        "2": [
+        "0": [
             ["outdoor sports", "recreational activities", "adventure sports", "sports events", "athletic competitions"],
             ["entertainment news", "celebrity gossip", "TV shows", "film premieres", "music releases"],
             ["travel destinations", "tourist attractions", "vacation planning", "holiday getaways", "travel adventures"],
@@ -74,7 +74,7 @@
             ["design aesthetics", "building techniques", "landscape architecture", "architectural projects", "architectural critique"],
             ["architectural preservation", "building structures", "architectural landmarks", "design theory", "architectural visualization"]
         ],
-        "2": [
+        "0": [
             ["health and fitness", "nutritional balance", "exercise routines", "wellness programs", "healthcare services"],
             ["arts and crafts", "creative projects", "DIY ideas", "creative expression", "handmade crafts"],
             ["business management", "sales strategies", "corporate governance", "entrepreneurship", "start-up growth"],
@@ -89,7 +89,7 @@
             ["robotic applications", "service robots", "agricultural robotics", "robotic industries", "robotic challenges"],
             ["robotic developments", "robotic design", "robotic algorithms", "robotic vision", "robotic mechanics"]
         ],
-        "2": [
+        "0": [
             ["culinary arts", "food preparation", "gourmet cooking", "cooking recipes", "gastronomy"],
             ["musical instruments", "sound production", "musical theory", "music composition", "music genres"],
             ["financial investments", "stock markets", "investment strategies", "wealth management", "portfolio diversification"],
@@ -104,7 +104,7 @@
             ["color palettes", "haute couture", "fashion sketches", "fashion photography", "styling tips"],
             ["fashion models", "wardrobe selections", "seasonal trends", "fashion icons", "fashion criticism"]
         ],
-        "2": [
+        "0": [
             ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
             ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
             ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
@@ -119,7 +119,7 @@
             ["culinary arts", "gourmet dining", "culinary creativity", "cooking experiments", "food presentation"],
             ["food culture", "culinary experiences", "cooking shows", "culinary heritage", "culinary education"]
         ],
-        "2": [
+        "0": [
             ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
             ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
             ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
@@ -134,7 +134,7 @@
             ["asset allocation", "investment options", "risk management", "financial literacy", "investment insights"],
             ["economic indicators", "stock market analysis", "wealth building", "investment decisions", "investment performance"]
         ],
-        "2": [
+        "0": [
             ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
             ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
             ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],
@@ -149,7 +149,7 @@
             ["cultural immersion", "backpacking trips", "sightseeing tours", "travel photography", "globetrotting tales"],
             ["vacation planning", "beach getaways", "mountain escapades", "city breaks", "luxury vacations"]
         ],
-        "2": [
+        "0": [
             ["space missions", "astronomical research", "NASA projects", "cosmic exploration", "extraterrestrial studies"],
             ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
             ["neuroscience", "brain research", "neural networks", "cognitive psychology", "neurological disorders"],

@@ -1,0 +1,159 @@
+{
+    "space_physics": {
+        "keywords": ["space physics", "cosmic rays", "solar wind", "magnetosphere", "ionosphere", "space weather"],
+        "1": [
+            ["solar", "flares", "geomagnetic", "storms", "particle", "acceleration", "magnetic", "fields", "activity"],
+            ["ionospheric", "disturbances", "plasma", "radiation", "belts", "observatories", "astrophysical", "phenomena"],
+            ["magnetospheric", "research", "physics", "climate", "modeling", "environment"]
+        ],
+        "0": [
+            ["botany", "gardening", "horticulture", "flowers", "plant", "care"],
+            ["travel", "destinations", "vacations", "tourism", "holiday", "resorts", "trip", "planning"],
+            ["programming", "languages", "software", "development", "coding", "tutorials", "web", "design", "app"]
+        ]
+    },
+    "marine_biology": {
+        "keywords": ["marine biology", "oceanography", "marine ecosystems", "coral reefs", "marine conservation"],
+        "1": [
+            ["ocean", "habitats", "species", "research", "seabed", "exploration", "biodiversity"],
+            ["coral", "reef", "ecosystems", "life", "conservation", "oceanographic", "studies", "science"],
+            ["life", "forms", "oceanic", "conservation", "protection", "oceanographic", "research", "organism", "behavior"]
+        ],
+        "0": [
+            ["auto", "mechanics", "car", "repairs", "vehicle", "maintenance", "automotive", "industry", "engine", "diagnostics"],
+            ["cooking", "recipes", "cuisine", "culinary", "arts", "gourmet", "food", "preparation"],
+            ["technology", "gadgets", "gizmos", "consumer", "electronics", "innovative", "devices", "gadget", "reviews"]
+        ]
+    },
+    "neuroscience": {
+        "keywords": ["neuroscience", "brain", "research", "neural", "networks", "cognitive", "psychology", "neurological", "disorders"],
+        "1": [
+            ["brain", "imaging", "pathways", "functions", "neuropsychology", "studies"],
+            ["neural", "mapping", "processes", "health", "research", "neuropsychiatric", "disorders"],
+            ["neurophysiology", "development", "disorders", "treatments", "neurobiology"]
+        ],
+        "0": [
+            ["home", "decor", "interior", "design", "decorative", "arts", "furniture", "trends", "designer", "furnishings"],
+            ["music", "genres", "musical", "instruments", "sound", "production", "theory", "composition"],
+            ["financial", "investments", "stock", "markets", "investment", "strategies", "wealth", "management", "portfolio", "diversification"]
+        ]
+    },
+    "space_colonization": {
+        "keywords": ["space colonization", "extraterrestrial habitats", "space colonies", "Mars settlement", "pioneers"],
+        "1": [
+            ["moon", "bases", "habitats", "terraforming", "Mars", "off-world", "settlements", "colonization", "missions"],
+            ["space", "migration", "interplanetary", "travel", "station", "design", "asteroid", "mining", "Lunar", "colonization"],
+            ["Mars", "terraformation", "exploration", "future", "cosmic", "communities", "settlement", "planning"]
+        ],
+        "0": [
+            ["fitness", "training", "exercise", "programs", "gym", "workouts", "workout", "routines", "challenges"],
+            ["art", "and", "culture", "creative", "expression", "visual", "arts", "cultural", "heritage", "artistic", "movements"],
+            ["business", "strategies", "market", "analysis", "entrepreneurship", "start-up", "growth", "corporate", "innovations"]
+        ]
+    },
+    "medical_research": {
+        "keywords": ["medical research", "health studies", "clinical trials", "biomedical advances", "medical breakthroughs"],
+        "1": [
+            ["disease", "prevention", "innovations", "biotechnology", "research", "clinical", "testing", "discoveries"],
+            ["healthcare", "advancements", "trials", "diagnostic", "methods", "patient", "care", "treatments"],
+            ["pharmaceutical", "developments", "technology", "biomedical", "breakthroughs", "disease", "management", "health", "science"],
+            ["medical", "case", "studies", "epidemiological", "research", "healthcare", "protocols", "public", "health"]
+        ],
+        "0": [
+            ["outdoor", "sports", "recreational", "activities", "adventure", "sports", "events", "athletic", "competitions"],
+            ["entertainment", "news", "celebrity", "gossip", "TV", "shows", "film", "premieres", "music", "releases"],
+            ["travel", "destinations", "tourist", "attractions", "vacation", "planning", "holiday", "getaways", "adventures"],
+            ["coding", "tutorials", "programming", "languages", "software", "development", "web", "design", "app"]
+        ]
+    },
+    "architecture_design": {
+        "keywords": ["architecture", "interior", "design", "architectural", "styles", "building", "materials", "principles"],
+        "1": [
+            ["modern", "architecture", "innovations", "sustainable", "blueprints", "urban", "planning"],
+            ["interior", "decorating", "decor", "trends", "furniture", "history", "photography"],
+            ["aesthetics", "building", "techniques", "landscape", "projects", "critique"],
+            ["preservation", "structures", "landmarks", "theory", "visualization"]
+        ],
+        "0": [
+            ["health", "and", "fitness", "nutritional", "balance", "exercise", "routines", "wellness", "programs", "healthcare", "services"],
+            ["arts", "and", "crafts", "creative", "projects", "DIY", "ideas", "expression", "handmade", "crafts"],
+            ["business", "management", "sales", "strategies", "corporate", "governance", "entrepreneurship", "start-up", "growth"],
+            ["history", "studies", "historical", "events", "medieval", "history", "archaeological", "discoveries", "historical", "narratives"]
+        ]
+    },
+    "robotics": {
+        "keywords": ["robotics", "automation", "robotic", "technology", "applications", "AI"],
+        "1": [
+            ["industrial", "automation", "autonomous", "robots", "programming", "innovation"],
+            ["arms", "sensors", "AI-powered", "surgery", "research"],
+            ["applications", "service", "agricultural", "industries", "challenges"],
+            ["developments", "design", "algorithms", "vision", "mechanics"]
+        ],
+        "0": [
+            ["culinary", "arts", "food", "preparation", "gourmet", "cooking", "recipes", "gastronomy"],
+            ["musical", "instruments", "sound", "production", "theory", "composition", "genres"],
+            ["financial", "investments", "stock", "markets", "investment", "strategies", "wealth", "management", "portfolio", "diversification"],
+            ["archaeological", "discoveries", "documentary", "research", "historical", "documents", "investigation"]
+        ]
+    },
+    "fashion_design": {
+        "keywords": ["fashion", "designer", "clothing", "apparel", "trends", "couture"],
+        "1": [
+            ["high", "runway", "shows", "collections", "luxury", "brands", "designers"],
+            ["styles", "labels", "accessories", "fabric", "choices", "textile"],
+            ["color", "palettes", "haute", "sketches", "photography", "styling", "tips"],
+            ["models", "wardrobe", "selections", "seasonal", "icons", "criticism"]
+        ],
+        "0": [
+            ["space", "missions", "astronomical", "research", "NASA", "projects", "cosmic", "exploration", "extraterrestrial", "studies"],
+            ["marine", "biology", "oceanography", "ecosystems", "coral", "reefs", "conservation"],
+            ["neuroscience", "brain", "research", "neural", "networks", "cognitive", "psychology", "neurological", "disorders"],
+            ["space", "colonization", "extraterrestrial", "habitats", "colonies", "Mars", "settlement", "pioneers"]
+        ]
+    },
+    "culinary_art": {
+        "keywords": ["culinary", "cooking", "food", "gastronomy", "recipes", "chefs", "cuisine", "culture", "techniques"],
+        "1": [
+            ["preparation", "methods", "ingredients", "chef's", "gastronomic", "delights"],
+            ["cuisine", "exploration", "traditions", "pairing", "skills", "chef's", "secrets"],
+            ["arts", "dining", "creativity", "experiments", "presentation"],
+            ["culture", "experiences", "shows", "heritage", "education"]
+        ],
+        "0": [
+            ["space", "missions", "astronomical", "research", "NASA", "projects", "cosmic", "exploration", "extraterrestrial", "studies"],
+            ["marine", "biology", "oceanography", "ecosystems", "coral", "reefs", "conservation"],
+            ["neuroscience", "brain", "research", "neural", "networks", "cognitive", "psychology", "neurological", "disorders"],
+            ["space", "colonization", "extraterrestrial", "habitats", "colonies", "Mars", "settlement", "pioneers"]
+        ]
+    },
+    "finance_investment": {
+        "keywords": ["finance", "investment", "financial", "markets", "wealth", "management", "portfolio", "diversification", "strategies", "stock", "trading", "economics"],
+        "1": [
+            ["planning", "portfolios", "opportunities", "market", "analysis", "advice"],
+            ["vehicles", "instruments", "trends", "advisors", "research"],
+            ["asset", "allocation", "options", "risk", "literacy", "insights"],
+            ["economic", "indicators", "building", "decisions", "performance"]
+        ],
+        "0": [
+            ["space", "missions", "astronomical", "research", "NASA", "projects", "cosmic", "exploration", "extraterrestrial", "studies"],
+            ["marine", "biology", "oceanography", "ecosystems", "coral", "reefs", "conservation"],
+            ["neuroscience", "brain", "research", "neural", "networks", "cognitive", "psychology", "neurological", "disorders"],
+            ["space", "colonization", "extraterrestrial", "habitats", "colonies", "Mars", "settlement", "pioneers"]
+        ]
+    },
+    "travel_adventures": {
+        "keywords": ["travel", "adventure", "exploration", "tourist", "destinations", "vacations", "holiday", "getaways", "trip", "experiences", "sightseeing"],
+        "1": [
+            ["adventure", "trips", "experiences", "holiday", "adventures", "explorations", "wanderlust", "journeys"],
+            ["tourist", "hotspots", "destination", "guides", "itineraries", "off-the-beaten-path", "diaries"],
+            ["cultural", "immersion", "backpacking", "sightseeing", "tours", "photography", "globetrotting", "tales"],
+            ["vacation", "planning", "beach", "mountain", "escapades", "city", "breaks", "luxury"]
+        ],
+        "0": [
+            ["space", "missions", "astronomical", "research", "NASA", "projects", "cosmic", "exploration", "extraterrestrial", "studies"],
+            ["marine", "biology", "oceanography", "ecosystems", "coral", "reefs", "conservation"],
+            ["neuroscience", "brain", "research", "neural", "networks", "cognitive", "psychology", "neurological", "disorders"],
+            ["space", "colonization", "extraterrestrial", "habitats", "colonies", "Mars", "settlement", "pioneers"]
+        ]
+    }
+}

@@ -3,7 +3,7 @@ from block import block
 from random import random
 from scipy import optimize
 
-with open("traindata.json", "+r") as f:
+with open("combined.json", "+r") as f:
     data = json.load(f)
 
 # returns false (0) is predicted properly
@@ -13,38 +13,40 @@ def error(true, predicted):
 
 def run(params):
     sr = []
-    et, threshold = params
-    print("et: ", et, "threshold: ", threshold)
+    et, threshold, weight = params
+    print("et: ", et, "threshold: ", threshold, "weight: ", weight)
     for category in data.keys():
         keywords = data[category]["keywords"]
         for good in data[category]["1"]:
-            predicted = block(keywords, good, threshold, et)
+            predicted = block(keywords, good, threshold, et, weight)
             sr.append(error(1, predicted))
         for bad in data[category]["0"]:
-            predicted = block(keywords, bad, threshold, et)
+            predicted = block(keywords, bad, threshold, et, weight)
             sr.append(error(0, predicted))
     print(sr)
     err = len([pred for pred in sr if pred==1])/len(sr)
     print("Error", err)
     return err
 
-initial_guess = [0.00024951171875, 0.47490234374999996]
+# initial_guess = [0.0002138523356119792, 0.5946003046035769, 1.036111111111111]
+initial_guess = [0, 0.5, 1]
 result = optimize.minimize(run, initial_guess, method='Nelder-Mead')
+# Results on traindata.json
+# et: 0.00020584716796875002
+# threshold:  0.6647705268859867
+# Minimum Error: 0.017857142857142856
+
+# with weight (traindata)
+# et:  0.0002058572190999985 threshold:  0.6647380673876035 weight:  1.000048828125
+
+# with weight (testdata_sep_words)
+#Error 0.0625
+# Optimized Parameter:  [0.0002138523356119792, 0.5946003046035769, 1.036111111111111]
 
 if result.success:
-    optimized_parameters = result.x[0]
+    optimized_parameters = result.x
     min_error = result.fun
-    print(f"Optimized Parameter: {optimized_parameters}")
-    print(f"Minimum Error: {min_error}")
-else:
-    print("Optimization failed.")
-
-result = optimize.minimize(run, initial_guess, method='L-BFGS-B')
-
-if result.success:
-    optimized_parameters = result.x[0]
-    min_error = result.fun
-    print(f"Optimized Parameter: {optimized_parameters}")
+    print(f"Optimized Parameter: ", [parameter for parameter in optimized_parameters])
     print(f"Minimum Error: {min_error}")
 else:
     print("Optimization failed.")

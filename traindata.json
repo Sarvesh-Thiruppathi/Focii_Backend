@@ -19,8 +19,8 @@
         "1": [
             ["climate", "sustainable", "renewable", "conservation", "pollution"],
             ["biodiversity", "ecological", "preservation", "environmental", "sustainability"],
-            ["renewable energy", "carbon footprint", "green living", "ecological balance", "climate action"],
-            ["ecosystem health", "environmental protection", "wildlife preservation", "sustainable practices", "climate resilience"]
+            ["renewable", "energy", "carbon", "footprint", "green", "living", "ecological", "balance", "climate"],
+            ["ecosystem", "health", "environmental", "protection", "wildlife", "preservation", "sustainable", "climate"]
         ],
         "0": [
             ["gardening", "outdoors", "landscaping", "horticulture", "plants"],
@@ -34,8 +34,8 @@
         "1": [
             ["nutrition", "exercise", "disease", "wellness", "medical"],
             ["prevention", "treatment", "medication", "symptoms", "healthy"],
-            ["physical fitness", "health promotion", "mental well-being", "wellness programs", "nutritional balance"],
-            ["healthcare services", "disease prevention", "medical diagnosis", "symptom management", "mental health support"]
+            ["physical", "fitness", "health", "mental", "well-being", "wellness", "programs", "nutritional", "balance"],
+            ["healthcare", "disease", "prevention", "medical", "diagnosis", "symptom", "management", "mental", "health"]
         ],
         "0": [
             ["cooking", "recipes", "food", "culinary", "gastronomy"],
@@ -49,8 +49,8 @@
         "1": [
             ["artificial", "cloud", "cybersecurity", "innovation", "startups"],
             ["networking", "programming", "automation", "virtualization", "technological"],
-            ["emerging tech", "software development", "internet of things", "cyber defense", "innovative solutions"],
-            ["data analytics", "digital transformation", "network security", "machine learning", "technology trends"]
+            ["tech", "software", "internet", "cyber", "defense", "innovative", "solutions"],
+            ["data", "analytics", "digital", "transformation", "network", "security", "machine", "learning", "technology", "trends"]
         ],
         "0": [
             ["science", "research", "discovery", "knowledge", "education"],
@@ -64,8 +64,8 @@
         "1": [
             ["management", "strategy", "marketing", "finance", "leadership"],
             ["startup", "entrepreneurship", "businesses", "entrepreneurs", "venture"],
-            ["corporate governance", "sales strategies", "revenue growth", "stock market", "profit margins"],
-            ["liquidity management", "discount pricing", "human resources", "strategic planning", "resource allocation"]
+            ["corporate", "governance", "sales", "strategies", "revenue", "growth", "stock", "market", "profit", "margins"],
+            ["liquidity", "management", "discount", "pricing", "human", "resources", "strategic", "planning", "resource", "allocation"]
         ],
         "0": [
             ["fashion", "style", "clothing", "apparel", "design"],
@@ -79,12 +79,12 @@
         "1": [
             ["ancient", "medieval", "Renaissance", "revolution", "Martin"],
             ["historical", "archaeological", "documentary", "historian", "research"],
-            ["civilization studies", "medieval history", "historical events", "historical figures", "world history"],
-            ["archaeological discoveries", "documentary research", "historical documents", "historical narratives", "historical investigation"]
+            ["civilization", "studies", "medieval", "history", "historical", "events", "historical", "figures", "world", "history"],
+            ["archaeological", "discoveries", "documentary", "research", "historical", "documents", "historical", "narratives", "historical", "investigation"]
         ],
         "0": [
             ["architecture", "artifacts", "heritage", "museums", "preservation"],
-            ["pop culture", "media", "entertainment", "trends", "celebrities"],
+            ["pop", "culture", "media", "entertainment", "trends", "celebrities"],
             ["programming", "development", "coding", "software", "web"],
             ["food", "culinary", "gastronomy", "recipes", "cooking"]
         ]
@@ -94,14 +94,14 @@
         "1": [
             ["workout", "training", "weights", "aerobics", "physique"],
             ["diet", "wellbeing", "lifestyle", "sports", "physical"],
-            ["physical fitness", "exercise routines", "gym workouts", "strength training", "cardio exercises"],
-            ["nutritional balance", "healthy eating", "body conditioning", "health and wellness", "fitness programs"]
+            ["physical", "fitness", "exercise", "routines", "gym", "workouts", "strength", "training", "cardio", "exercises"],
+            ["nutritional", "balance", "healthy", "eating", "body", "conditioning", "health", "wellness", "fitness", "programs"]
         ],
         "0": [
             ["baking", "cooking", "recipes", "culinary", "kitchen"],
             ["music", "art", "crafts", "creativity", "DIY"],
-            ["private pilot", "flight simulator", "economy class", "in-flight", "boarding pass"],
-            ["vector calculus", "euclidean geometry", "aviation history", "flight mechanics", "propeller aircraft"]
+            ["private", "pilot", "flight", "simulator", "economy", "class", "in-flight", "boarding", "pass"],
+            ["vector", "calculus", "euclidean", "geometry", "aviation", "history", "flight", "mechanics", "propeller", "aircraft"]
         ]
     }
 }

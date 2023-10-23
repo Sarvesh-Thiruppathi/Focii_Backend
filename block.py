@@ -3,7 +3,7 @@ from similarity import Similarity
 from check import Check
 import numpy as np
 
-def block(keywords: list, site: list, threshold=0.00024951171875, et=0.47490234374999996) -> bool:
+def block(keywords: list, site: list, threshold=0.6647705268859867, et=0.00020584716796875002, weight=1) -> bool:
     # Get embeddings
     embed = Embeddings("sentence-transformers/all-mpnet-base-v2")
 
@@ -23,8 +23,8 @@ def block(keywords: list, site: list, threshold=0.00024951171875, et=0.474902343
     # print(isGood)
    
     # Method 2: average word embeddings
-    keyword = embed.getEmbeddings2(keywords, et)
-    site = embed.getEmbeddings2(site, et)
+    keyword = embed.getEmbeddings2(keywords, et, weight)
+    site = embed.getEmbeddings2(site, et, weight)
 
     # Get similarity scores
     cossim = similarity.calculate2(keyword, site)
