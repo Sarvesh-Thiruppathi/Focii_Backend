@@ -31,6 +31,15 @@ def run(params):
 # initial_guess = [0.0002138523356119792, 0.5946003046035769, 1.036111111111111]
 initial_guess = [0, 0.5, 1]
 result = optimize.minimize(run, initial_guess, method='Nelder-Mead')
+
+if result.success:
+    optimized_parameters = result.x
+    min_error = result.fun
+    print(f"Optimized Parameter: ", [parameter for parameter in optimized_parameters])
+    print(f"Minimum Error: {min_error}")
+else:
+    print("Optimization failed.")
+    
 # Results on traindata.json
 # et: 0.00020584716796875002
 # threshold:  0.6647705268859867
@@ -42,29 +51,3 @@ result = optimize.minimize(run, initial_guess, method='Nelder-Mead')
 # with weight (testdata_sep_words)
 #Error 0.0625
 # Optimized Parameter:  [0.0002138523356119792, 0.5946003046035769, 1.036111111111111]
-
-if result.success:
-    optimized_parameters = result.x
-    min_error = result.fun
-    print(f"Optimized Parameter: ", [parameter for parameter in optimized_parameters])
-    print(f"Minimum Error: {min_error}")
-else:
-    print("Optimization failed.")
-
-# i = 0
-# while (i < iterations or error > 0.1):
-#     i += 1
-#     print("iteration: ", i)
-#     print("et", et)
-#     for category in data.keys():
-#         keywords = data[category]["keywords"]
-#         for good in data[category]["1"]:
-#             predicted = block(keywords, good, 0.5, et)
-#             sr.append(error(1, predicted))
-#         for bad in data[category]["0"]:
-#             predicted = block(keywords, bad, 0.5, et)
-#             sr.append(error(0, predicted))
-#     curr_err = len([pred for pred in sr if pred==1])/len(sr)
-#     print("Error: ", curr_err)
-#     et += lr
-    
