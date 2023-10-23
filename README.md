@@ -1,5 +1,5 @@
 # Focii Backend
-Backend for Focii: An Anti-Procrastination Chrome Extension.
+Backend for [Focii: An Anti-Procrastination Chrome Extension](https://github.com/colinpannikkat/Focii)
 
 ## Requirements
 * SciPy
